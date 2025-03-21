@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>gis_road_filter</name>
+  <version>0.0.0</version>
+  <description>
+    /rangenet/roadpoints 토픽의 메시지에서 z 값이 0 이상인 점을 제외한 후,
+    결과를 road/filtered 토픽에 발행하는 기능을 가진 패키지.
+  </description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_ros</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+
+  <export>
+    <!-- 추가 정보가 필요하면 이곳에 기술 -->
+  </export>
+</package>

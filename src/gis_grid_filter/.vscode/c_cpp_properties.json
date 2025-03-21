@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cgt20/WorkSpace/hdl_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/cgt20/WorkSpace/catkin_ws/devel/include/**",
+        "/home/cgt20/WorkSpace/hdl_ws/src/fast_gicp/include/**",
+        "/home/cgt20/WorkSpace/catkin_ws/src/faster-lio/include/**",
+        "/home/cgt20/WorkSpace/hdl_ws/src/hdl_global_localization/include/**",
+        "/home/cgt20/WorkSpace/hdl_ws/src/hdl_localization/include/**",
+        "/home/cgt20/WorkSpace/catkin4_ws/src/image_gps_saver/include/**",
+        "/home/cgt20/WorkSpace/catkin4_ws/src/my_pointcloud_processor/include/**",
+        "/home/cgt20/WorkSpace/hdl_ws/src/ndt_omp/include/**",
+        "/home/cgt20/WorkSpace/catkin4_ws/src/planarity_filter/include/**",
+        "/home/cgt20/WorkSpace/catkin4_ws/src/pointcloud_rotator/include/**",
+        "/home/cgt20/WorkSpace/catkin_ws/src/ublox/ublox_gps/include/**",
+        "/home/cgt20/WorkSpace/catkin_ws/src/ublox/ublox_msg_filters/include/**",
+        "/home/cgt20/WorkSpace/catkin_ws/src/ublox/ublox_msgs/include/**",
+        "/home/cgt20/WorkSpace/catkin_ws/src/ublox/ublox_serialization/include/**",
+        "/home/cgt20/WorkSpace/hdl_ws/src/utm_converter_pkg/include/**",
+        "/home/cgt20/WorkSpace/catkin4_ws/src/velo_gtpub/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,17 @@
+<launch>
+    <!-- GIS Image Maker 실행 -->
+    <node pkg="gis_image_maker" type="gis_image_maker" name="gis_image_maker" output="screen"/>
+    
+    <!-- GIS Pointcloud Rotator 실행 -->
+    <node pkg="gis_pointcloud_rotator" type="gis_pointcloud_rotator" name="gis_pointcloud_rotator" output="screen"/>
+    
+    <!-- GIS Grid Filter 실행 -->
+    <node pkg="gis_grid_filter" type="grid_filter_node" name="grid_filter_node" output="screen"/>
+    
+    <!-- GIS Normal Filter 실행 -->
+    <node pkg="gis_normal_filter" type="gis_normal_filter" name="gis_normal_filter" output="screen"/>
+
+    <!-- <node pkg="utm_converter_pkg" type="candidate" name="candidate" output="screen"/> -->
+    <node pkg="gis_road_filter" type="gis_road_filter" name="gis_road_filter" output="screen"/>
+
+</launch>

@@ -1,0 +1,1 @@
+rosrun your_package pcl_image_converter _max_distance:=50.0
